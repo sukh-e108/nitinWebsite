@@ -9,17 +9,17 @@
 }
 
 .swiper-slide-1 {
-    background-image: url(/images/index/carousel-img1.jpg);
+    background-image: url(../images/index/carousel-img1.jpg);
     background-size: cover;
     
 }
 .swiper-slide-2 {
-    background-image: url(/images/index/carousel-img2.jpg);
+    background-image: url(../images/index/carousel-img2.jpg);
     background-size: cover;
 }
 
 .swiper-slide-3 {
-    background-image: url(/images/index/carousel-img3.jpg);
+    background-image: url(../images/index/carousel-img3.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -27,7 +27,7 @@
 /* section 1  */
 .section1 {
     padding: 15vh 8vw;
-    background-image: url('/images/index/section1-bg-img.jpg');
+    background-image: url('../images/index/section1-bg-img.jpg');
     background-size: cover;
     background-position: center;    
     background-attachment: fixed;
@@ -107,7 +107,7 @@
 }
 
 .section2-card1 {
-    background-image: url('/images/index/section2-card-img1.jpg');
+    background-image: url('../images/index/section2-card-img1.jpg');
     background-size: cover;
     background-position: center;   
 }
@@ -123,19 +123,19 @@
 }
 
 .section2-card2 {
-    background-image: url('/images/index/section2-card-img2.jpg');
+    background-image: url('../images/index/section2-card-img2.jpg');
     background-size: cover;
     background-position: center;
 }
 
 .section2-card3 {
-    background-image: url('/images/index/section2-card-img3.jpg');
+    background-image: url('../images/index/section2-card-img3.jpg');
     background-size: cover;
     background-position: center;
 }
 
 .section2-card4 {
-    background-image: url('/images/index/section2-card-img4.jpg');
+    background-image: url('../images/index/section2-card-img4.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -143,7 +143,7 @@
 /* section 3 styling */
 
 .section3 {   
-    background: url("/images/index/leaf.png") no-repeat right center, #A7D930;
+    background: url("../images/index/leaf.png") no-repeat right center, #A7D930;
     padding: 12vh 40vw 5vh 10vw;
 }
 

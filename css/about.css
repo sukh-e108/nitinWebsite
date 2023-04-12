@@ -10,7 +10,7 @@
 
 .section1-heading {
   height: 400px;
-  background-image: url("/images/about/section1-bg.jpg");
+  background-image: url("../images/about/section1-bg.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;  
