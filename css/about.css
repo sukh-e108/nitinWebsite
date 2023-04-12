@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.section1 {
+  padding: 5vh 2vw;
+}
+
+.section1-heading {
+  height: 400px;
+  background-image: url("/images/about/section1-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;  
+  color: #FFFFFF;
+  text-shadow: 3px 3px 4px #000000;
+}
+
+.section2 {
+  padding: 10vh 10vw;
+}
+
+.section3 {
+  padding: 10vh 25vw;
+  background-color: #A7D930;
+}
+
+@media screen and (max-width: 992px) {
+  .section3 {
+    padding: 10vh 10vw;    
+  }  
+}
+
+@media screen and (max-width: 576px) {
+  .section3 {
+    padding: 10vh 5vw;    
+  }  
+}

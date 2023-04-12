@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.section1 { 
+  padding: 20vh 0vw;
+  background-image: url("/images/contact/bg-img2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #FFFFFF;  
+}
+
+
+
+.section1 h1, .section1 h5 {
+  text-shadow: 2px 2px 4px #000000;
+}
+
+/* .contact-form-container {
+    width: 500px;
+} */
+
+input {
+    height: 80px;
+    /* width: 500px; */
+    width: 30vw;
+    padding: 20px;
+    margin: 20px 0px;
+    border: 2px solid black;
+    border-radius: 10px;
+    outline: 0px;
+}
+
+input:hover, input:active {
+    border: 5px solid #0275d8;
+}
+
+textarea {
+    margin-top: 20px;
+    height: 320px;
+    /* width: 500px; */
+    width: 30vw;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    outline: 0px;
+}
+
+textarea:hover, textarea:active {
+    border: 5px solid #0275d8;    
+}
+
+.btn {
+    /* width: 200px !important; */
+    padding: 20px 40px 
+}
+
+@media screen and (max-width: 992px) {
+  input {
+    width: 70vw;
+  }
+
+  textarea {
+    width: 70vw;
+  }
+  
+  .btn{
+    padding: 20px 100px;
+  }
+
+}
